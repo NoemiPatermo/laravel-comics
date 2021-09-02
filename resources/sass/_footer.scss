@@ -1,0 +1,63 @@
+.footer-container{
+    background-image: url(../../public/images/footer-bg.jpg);
+    position: relative;
+    
+
+    .inner-footer{
+        display: flex;
+
+        li{
+            list-style: none;
+            color: white;
+            font-size: 15px;
+            font-style: normal;
+            padding: 5px;
+         &:first-child{
+                font-weight: bolder;
+                font-size: 20px;
+            }
+        }
+    
+    .logo-container{
+            img{
+                position: absolute;
+                top: 40%;
+                left: 80%;
+                transform: translate(-50%, -50%);
+                width: 400px; /*sistema questa cosa!*/
+                                    
+                
+                
+            }
+    }
+}
+    .button-footer{
+        height: 80px;
+        background-color: #191919;
+        display: flex;
+        justify-content: space-around;
+        align-items:center ;
+        
+            button{
+                background-color: #303030;
+                color: white;
+                border: 1px solid blue;
+                height: 60px;
+                padding: 10px;
+            }
+    }
+        .social-content{
+        
+            span{
+                color: blue;
+                font-size: 15px;
+                
+            }
+            img{
+                padding: 10px;
+                vertical-align: middle;
+            }
+        }
+    
+}
+

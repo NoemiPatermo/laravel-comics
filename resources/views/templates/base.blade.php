@@ -18,9 +18,9 @@
         </div>
 
 
-    <header>
+    <footer>
         @include('templates.footer')
-    </header>
+    </footer>
 
 
 </body>

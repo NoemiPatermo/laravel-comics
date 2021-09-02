@@ -1,4 +1,102 @@
-header {
-  background-color: black;
+.top-nav {
+  background-color: #00a9d9;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-nav h5 {
+  padding: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 70px;
+  margin-top: 5px;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.navbar .menu li:hover {
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+}
+
+.navbar .menu li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar .search input {
+  outline: none;
+  border: 0px;
+  border-bottom: 2px solid blue;
+}
+
+.footer-container {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  position: relative;
+}
+
+.footer-container .inner-footer {
+  display: flex;
+}
+
+.footer-container .inner-footer li {
+  list-style: none;
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  padding: 5px;
+}
+
+.footer-container .inner-footer li:first-child {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.footer-container .inner-footer .logo-container img {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  /*sistema questa cosa!*/
+}
+
+.footer-container .button-footer {
+  height: 80px;
+  background-color: #191919;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-container .button-footer button {
+  background-color: #303030;
+  color: white;
+  border: 1px solid blue;
+  height: 60px;
+  padding: 10px;
+}
+
+.footer-container .social-content span {
+  color: blue;
+  font-size: 15px;
+}
+
+.footer-container .social-content img {
+  padding: 10px;
+  vertical-align: middle;
 }
 
