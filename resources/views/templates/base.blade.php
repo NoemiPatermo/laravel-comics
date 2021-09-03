@@ -16,7 +16,10 @@
         <div class="container">
             @yield('content')
         </div>
-
+        
+        <section>
+            @include('templates.merchandise')
+        </section>
 
     <footer>
         @include('templates.footer')

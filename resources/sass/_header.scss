@@ -4,31 +4,34 @@
     display: flex;
     justify-content: flex-end;
 
-        h5{
+        h6{
             padding: 5px;
         }
 }
 
 .navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+   
     .logo img{
         width: 70px;
         margin-top: 5px;
     }
-    .menu li{
-        list-style: none;
-        display: inline;
-        font-weight: 600;
-        padding: 10px;
+     ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+        li{
+            list-style: none;
+            font-weight: 600;
+            padding: 10px;
 
-        &:hover{
-            border-bottom: 1px solid blue;
-            cursor: pointer;
+            &:hover{
+                border-bottom: 1px solid blue;
+                cursor: pointer;
+            }
         }
-
+    
         a{
             text-decoration: none;
             color: #000;
@@ -38,6 +41,9 @@
         outline: none;
         border: 0px;
         border-bottom: 2px solid blue;
+        text-align: right;
+        width: 100px;
+
     }
 }
 

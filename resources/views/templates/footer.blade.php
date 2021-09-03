@@ -1,6 +1,7 @@
-<div class="footer-container">
+<div class="footer-container fluid">
     <div class="container">
             <div class="inner-footer">
+
                     <div class="inner">
                         <ul>
                             <li>DC COMICS</li>
@@ -19,6 +20,7 @@
                             <li>Shop DC Collectibles</li>
                         </ul>
                     </div>
+
                     <div class="inner">
                         <ul>
                             <li>DC</li>
@@ -36,6 +38,7 @@
                         </ul>
                     
                     </div>
+                    
                     <div class="inner">
                         <ul>
                             <li>SITES</li>
@@ -46,13 +49,14 @@
                             <li>DC Power Visa</li>
                         </ul>
                     </div>
+
                     <div class="logo-container">
                             <div>
                                 <img src="../images/dc-logo-bg.png" alt="footer-logo">
                             </div>
                     </div>
             </div>
-
+    </div>
                     <div class="button-footer">
                             <button>SIGN-UP NOW!</button>
 
@@ -65,5 +69,5 @@
                                 <img src="../images/footer-periscope.png" alt="" />
                             </div>
                     </div>   
-    </div>
+    
 </div>

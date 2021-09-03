@@ -1,0 +1,27 @@
+/*
+.merchandise-container{
+    background-color: #00a9d9;
+    height: 250px;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         div{
+             display: flex;
+             align-items: center;
+             height: 20px;
+             img{
+                 width: 50px;
+                 margin-top: 13px;
+                 &:nth-last-child(4){
+                     width: 30px;
+                 }
+             }
+            span{
+                color: white;
+                font-size: 12px;
+                padding-left: 10px;
+            }
+         }
+    }
+}*/

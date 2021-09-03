@@ -1,8 +1,8 @@
 
-<div class="container">
+
         <div class="top-nav">
-            <h5>DC POWER  VISA</h5>
-            <h5>ADDITIONAL DC SITES</h5>
+            <h6>DC POWER  VISA</h6>
+            <h6>ADDITIONAL DC SITES</h6>
         </div>
     <nav>  
         <div class="container">
@@ -32,4 +32,3 @@
             </div>
         </div> 
     </nav>
-</div>
