@@ -10991,6 +10991,20 @@ a.text-dark:focus {
   width: 100px;
 }
 
+.home-page {
+  background: url("/images/jumbotron.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+.home-page-content-container {
+  background-color: #000;
+}
+
+.home-page-content-container p {
+  color: yellow;
+}
+
 .merchandise-container {
   background-color: #037ff3;
 }
