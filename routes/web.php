@@ -14,9 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
 
-Route::get('/comics', function () {
-    return view('comics');
+    $comics = config('comics');// abbiamo associato il nostro array ad una variabile
+
+    return view('home', [  //la devi inviare alla homepage, come secondo argomento con un array
+        'comics' => $comics
+    ]);
+})-> name('homepage');
+
+Route::get('/card', function () {
+    return view('card');
 });

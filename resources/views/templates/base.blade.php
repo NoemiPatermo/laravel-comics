@@ -13,9 +13,9 @@
         @include('templates.header')
     </header>
 
-        <div class="container">
-            @yield('content')
-        </div>
+        <main>
+            @yield('main')
+        </main>
         
         <section>
             @include('templates.merchandise')
