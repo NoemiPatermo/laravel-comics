@@ -1,19 +1,24 @@
 .top-nav{
-    background-color: #00a9d9;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-
-        h6{
-            padding: 5px;
+    background-color: rgb(3, 127,243);
+        ul{
+           
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            li{
+                
+                padding: 10px;
+                color: white;
+            }
         }
+
 }
 
 .navbar{
    
     .logo img{
-        width: 70px;
-        margin-top: 5px;
+        width: 80px;
+        
     }
      ul{
         display: flex;

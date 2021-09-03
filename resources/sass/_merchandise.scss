@@ -1,17 +1,18 @@
-/*
+
 .merchandise-container{
-    background-color: #00a9d9;
-    height: 250px;
+    background-color: rgb(3, 127, 243);
+    
     .container{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
+        
          div{
              display: flex;
              align-items: center;
-             height: 20px;
+            
              img{
                  width: 50px;
+                padding: 10px;
                  margin-top: 13px;
                  &:nth-last-child(4){
                      width: 30px;
@@ -24,4 +25,4 @@
             }
          }
     }
-}*/
+}

@@ -1,8 +1,10 @@
 
 
         <div class="top-nav">
-            <h6>DC POWER  VISA</h6>
-            <h6>ADDITIONAL DC SITES</h6>
+            <ul>
+                <li>DC POWER  VISA</li>
+                <li>ADDITIONAL DC SITES</li>
+            </ul>
         </div>
     <nav>  
         <div class="container">
