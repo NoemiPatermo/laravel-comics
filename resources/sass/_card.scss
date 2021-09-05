@@ -3,6 +3,44 @@
     background-size: cover;
      height: 400px; /*to remove*/
      position: relative;
-   
+     .container{
+        position: absolute;
+        bottom: -30px;
+        left: 210px;
+        
+         .field-content{
+            img{
+                border: 1px solid #fff;
+            }
+            
+             .content-type{
+                 background-color: rgba(0,102,170,0.9);
+                 position: absolute;
+                 font-weight: 300;
+                 color: #fff;
+
+             }
+             .bottom-label{
+                background-color: rgba(0, 102, 170, 0.9);
+                position: absolute;
+                width: 193px;
+                bottom: 0px;
+                text-align: center;
+                font-weight: 300;
+                color: #fff;
+             }
+         }
+        
+     }
+     
+     
+}.blu{
+    height: 80px;
+    background-color: rgb(3, 127, 243);
+}
+
+.container-details{
+    color: salmon;
+    
 }
     
