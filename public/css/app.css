@@ -11003,15 +11003,15 @@ header .mid-nav .search input {
   padding-right: 8px;
 }
 
-.home-page-content {
+.jumbotron-section {
   background: url("/images/jumbotron.jpg");
   background-size: cover;
-  height: 50vh;
+  height: 400px;
   /*to remove*/
   position: relative;
 }
 
-.home-page-content .epic-series {
+.jumbotron-section .epic-series {
   position: absolute;
   background-color: #037ff3;
   bottom: -20px;
@@ -11073,6 +11073,50 @@ header .mid-nav .search input {
   color: white;
   font-size: 12px;
   padding-left: 5px;
+}
+
+.jumbotron-section {
+  background: url("/images/jumbotron.jpg");
+  background-size: cover;
+  height: 400px;
+  /*to remove*/
+  position: relative;
+}
+
+.jumbotron-section .container {
+  position: absolute;
+  bottom: -30px;
+  left: 210px;
+}
+
+.jumbotron-section .container .field-content img {
+  border: 1px solid #fff;
+}
+
+.jumbotron-section .container .field-content .content-type {
+  background-color: rgba(0, 102, 170, 0.9);
+  position: absolute;
+  font-weight: 300;
+  color: #fff;
+}
+
+.jumbotron-section .container .field-content .bottom-label {
+  background-color: rgba(0, 102, 170, 0.9);
+  position: absolute;
+  width: 193px;
+  bottom: 0px;
+  text-align: center;
+  font-weight: 300;
+  color: #fff;
+}
+
+.blu {
+  height: 80px;
+  background-color: #037ff3;
+}
+
+.container-details {
+  color: salmon;
 }
 
 .footer-content {

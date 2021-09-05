@@ -28,12 +28,13 @@ Route::get('/', function () {
 //classe ROUTE:: - metodo get - funzione
 //(primo argomento = la rotta, secondo argomento = lancia questa funzione che torna una vista e solo quella)
 
-Route::get('/card', function () { //creata altra rotta che punta in direzione del singolo prodotto [card]
+Route::get('/card/{id}', function ($id) { //creata altra rotta che punta in direzione del singolo prodotto [card]
    $comics = config('comics');
 
     return view('card', [
+        'id' => $id,
         'comics' => $comics
     ]);
     
-})-> name('card');
+})-> name('card');//id è una variabile e la invii alla funzione
 

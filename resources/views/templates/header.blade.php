@@ -6,14 +6,14 @@
                 <li>ADDITIONAL DC SITES<i class="fas fa-caret-down"></i></li>
             </ul>
         </div>
-            <div class=" mid-nav">
+            <div class="container mid-nav">
 
                 <div class="logo">
                     <img src="/images/dc-logo.png" alt="logo"/>
                 </div>
                 
                 <ul class="menu"> <!--da sistemare la rotta in view e sistemare le a -->
-                    <li><!--<a href="{{ route('card') }}">-->CHARACTERS</li>
+                    <li><!--<a href="#">-->CHARACTERS</li>
                     <li><!--<a href="#">-->COMICS</li>
                     <li><!--<a href="#">-->MOVIES</li>
                     <li><!--<a href="#">-->TV</li>

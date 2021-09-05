@@ -27,10 +27,10 @@
                @yield('main')
         </main>
         
-            <!--richiamo la singola parte creata a parte-->
+            <!--richiamo la singola parte creata a parte
             <section>
                 @include('templates.merchandise')
-            </section>
+            </section>-->
 
             <!-- richiamo la singola parte del template creata a parte-->
             <footer>
