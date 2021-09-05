@@ -10942,131 +10942,173 @@ a.text-dark:focus {
   }
 }
 
-.top-nav {
+header .top-nav {
   background-color: #037ff3;
 }
 
-.top-nav ul {
+header .top-nav ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
 }
 
-.top-nav ul li {
+header .top-nav ul li {
+  font-size: 10px;
   padding: 10px;
   color: white;
 }
 
-.navbar .logo img {
-  width: 80px;
+header .top-nav ul i {
+  padding: 4px;
 }
 
-.navbar ul {
+header .mid-nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 15px;
 }
 
-.navbar ul li {
+header .mid-nav .logo img {
+  width: 80px;
+  margin-bottom: 2px;
+}
+
+header .mid-nav ul {
+  display: flex;
+}
+
+header .mid-nav ul li {
   list-style: none;
   font-weight: 600;
   padding: 10px;
 }
 
-.navbar ul li:hover {
+header .mid-nav ul li:hover {
   border-bottom: 1px solid blue;
   cursor: pointer;
 }
 
-.navbar ul a {
+header .mid-nav ul a {
   text-decoration: none;
   color: #000;
 }
 
-.navbar .search input {
+header .mid-nav .search input {
   outline: none;
   border: 0px;
   border-bottom: 2px solid blue;
   text-align: right;
   width: 100px;
+  padding-right: 8px;
 }
 
-.home-page {
+.home-page-content {
   background: url("/images/jumbotron.jpg");
   background-size: cover;
-  height: 400px;
+  height: 50vh;
+  /*to remove*/
+  position: relative;
 }
 
-.home-page-content-container {
-  background-color: #000;
+.home-page-content .epic-series {
+  position: absolute;
+  background-color: #037ff3;
+  bottom: -20px;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
 }
 
-.home-page-content-container p {
-  color: yellow;
+.inner-home-page {
+  background-color: #292828;
+  padding: 30px;
 }
 
-.merchandise-container {
+.inner-home-page .comics-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-home-page .comics-item-content {
+  text-align: left;
+  padding: 10px;
+}
+
+.inner-home-page .comics-item-content span {
+  color: whitesmoke;
+}
+
+.inner-home-page .button {
+  display: flex;
+  justify-content: center;
+}
+
+.merchandise {
   background-color: #037ff3;
 }
 
-.merchandise-container .container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.merchandise-container .container div {
-  display: flex;
+.merchandise .row {
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.merchandise-container .container div img {
-  width: 50px;
+.merchandise .row div {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.merchandise .row div img {
+  height: 50px;
   padding: 10px;
   margin-top: 13px;
 }
 
-.merchandise-container .container div img:nth-last-child(4) {
-  width: 30px;
+.merchandise .row div img:nth-last-of-type(2) {
+  height: 20px;
 }
 
-.merchandise-container .container div span {
+.merchandise .row div span {
   color: white;
   font-size: 12px;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
-.footer-container {
+.footer-content {
   background-image: url("/images/footer-bg.jpg");
   background-size: cover;
   position: relative;
   overflow: hidden;
 }
 
-.footer-container .inner-footer {
+.footer-content .inner-footer {
   display: flex;
+  padding: 25px;
 }
 
-.footer-container .inner-footer li {
+.footer-content .inner-footer li {
   list-style: none;
-  color: white;
+  color: #9c9c9c;
   font-size: 13px;
-  font-style: normal;
+  font-weight: bold;
   padding: 3px;
 }
 
-.footer-container .inner-footer li:first-child {
+.footer-content .inner-footer li:first-child {
   font-weight: bolder;
   font-size: 20px;
+  color: #fff;
 }
 
-.footer-container .inner-footer .logo-container img {
+.footer-content .inner-footer .logo-container img {
   position: absolute;
   top: 40%;
   left: 80%;
   transform: translate(-50%, -50%);
 }
 
-.footer-container .button-footer {
+.lower-footer {
   height: 80px;
   background-color: #191919;
   display: flex;
@@ -11074,7 +11116,7 @@ a.text-dark:focus {
   align-items: center;
 }
 
-.footer-container .button-footer button {
+.lower-footer button {
   background-color: #303030;
   color: white;
   border: 1px solid blue;
@@ -11082,12 +11124,12 @@ a.text-dark:focus {
   padding: 10px;
 }
 
-.footer-container .social-content span {
+.lower-footer .social-content span {
   color: blue;
   font-size: 15px;
 }
 
-.footer-container .social-content img {
+.lower-footer .social-content img {
   padding: 10px;
   vertical-align: middle;
 }

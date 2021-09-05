@@ -20,8 +20,20 @@ Route::get('/', function () {
     return view('home', [  //la devi inviare alla homepage, come secondo argomento con un array
         'comics' => $comics
     ]);
-})-> name('homepage');
+})-> name('homepage');//dai un nome specifico alla rotta, in modo da poterla chiamare in quel modo per puntare a quello specifico url
 
-Route::get('/card', function () {
-    return view('card');
-});
+
+
+
+//classe ROUTE:: - metodo get - funzione
+//(primo argomento = la rotta, secondo argomento = lancia questa funzione che torna una vista e solo quella)
+
+Route::get('/card', function () { //creata altra rotta che punta in direzione del singolo prodotto [card]
+   $comics = config('comics');
+
+    return view('card', [
+        'comics' => $comics
+    ]);
+    
+})-> name('card');
+

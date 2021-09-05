@@ -1,54 +1,66 @@
-.top-nav{
-    background-color: rgb(3, 127,243);
-        ul{
-           
-            list-style-type: none;
-            display: flex;
-            justify-content: flex-end;
-            li{
-                
-                padding: 10px;
-                color: white;
+header {
+    .top-nav{
+        background-color: rgb(3, 127,243);
+            ul{
+               
+                list-style-type: none;
+                display: flex;
+                justify-content: flex-end;
+                li{
+                    font-size: 10px;
+                    padding: 10px;
+                    color: white;
+                }
+              i{
+                  padding: 4px;
+              }
             }
-        }
-
-}
-
-.navbar{
-   
-    .logo img{
-        width: 80px;
-        
-    }
-     ul{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        
-        
-        li{
-            list-style: none;
-            font-weight: 600;
-            padding: 10px;
-
-            &:hover{
-                border-bottom: 1px solid blue;
-                cursor: pointer;
-            }
-        }
     
-        a{
-            text-decoration: none;
-            color: #000;
+    }
+    
+    .mid-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        padding: 15px;  
+        .logo {
+           
+           
+            img{
+                width: 80px;
+                margin-bottom: 2px;
+            }
+        }
+         ul{
+            display: flex;
+            
+            li{
+                list-style: none;
+                font-weight: 600;
+                padding: 10px;
+    
+                &:hover{
+                    border-bottom: 1px solid blue;
+                    cursor: pointer;
+                }
+              
+            }
+        
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+        .search input{
+            outline: none;
+            border: 0px;
+            border-bottom: 2px solid blue;
+            text-align: right;
+            width: 100px;
+            padding-right: 8px;
+            
+    
         }
     }
-    .search input{
-        outline: none;
-        border: 0px;
-        border-bottom: 2px solid blue;
-        text-align: right;
-        width: 100px;
-
-    }
+    
 }
-

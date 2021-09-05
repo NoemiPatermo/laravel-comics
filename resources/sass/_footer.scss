@@ -1,22 +1,23 @@
-.footer-container{
+.footer-content{
     background-image: url("/images/footer-bg.jpg");
     background-size: cover;
     position: relative;
     overflow: hidden;
-    
 
     .inner-footer{
         display: flex;
+        padding: 25px;
 
         li{
             list-style: none;
-            color: white;
+            color:rgb(156, 156, 156);
             font-size: 13px;
-            font-style: normal;
+            font-weight: bold;
             padding: 3px;
          &:first-child{
                 font-weight: bolder;
                 font-size: 20px;
+                color: #fff;
             }
         }
     
@@ -29,35 +30,7 @@
                
             }
     }
+  }
 }
-    .button-footer{
-        height: 80px;
-        background-color: #191919;
-        display: flex;
-        justify-content: space-around;
-        align-items:center;
-      
-        
-            button{
-                background-color: #303030;
-                color: white;
-                border: 1px solid blue;
-                height: 50px;
-                padding: 10px;
-            }
-    }
-        .social-content{
-        
-            span{
-                color: blue;
-                font-size: 15px;
-                
-            }
-            img{
-                padding: 10px;
-                vertical-align: middle;
-            }
-        }
     
-}
 

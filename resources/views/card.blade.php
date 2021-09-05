@@ -1,9 +1,14 @@
 
+<!--questa è la singola pagina del prodotto
+con una parte interna dinamica-->
+
 @extends('templates.base')
 
 
-@section('title', 'Comics')
+@section('title', 'card')
 
-@section('content')
-    QUI HAI IL DETTAGLIO DEI SINGOLI COMICS
+@section('main')
+      
+        
+           
 @endsection

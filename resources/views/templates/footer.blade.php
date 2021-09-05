@@ -1,6 +1,6 @@
-<div class="footer-container fluid">
-    <div class="container">
-            <div class="inner-footer">
+
+    <div class="footer-content">
+            <div class="container inner-footer">
 
                     <div class="inner">
                         <ul>
@@ -57,17 +57,3 @@
                     </div>
             </div>
     </div>
-                    <div class="button-footer">
-                            <button>SIGN-UP NOW!</button>
-
-                            <div class="social-content">
-                                    <span>FOLLOW US</span>
-                                <img src="../images/footer-facebook.png" alt="" />
-                                <img src="../images/footer-twitter.png" alt="" />
-                                <img src="../images/footer-youtube.png" alt="" />
-                                <img src="../images/footer-pinterest.png" alt="" />
-                                <img src="../images/footer-periscope.png" alt="" />
-                            </div>
-                    </div>   
-    
-</div>

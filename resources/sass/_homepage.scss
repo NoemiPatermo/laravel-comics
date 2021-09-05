@@ -1,12 +1,42 @@
-.home-page{
+.home-page-content{
     background: url("/images/jumbotron.jpg");
     background-size: cover;
-    height:400px ;
-}
-.home-page-content-container{
-    background-color: #000;
-    
-    p{
-        color: yellow;
+     height: 50vh; /*to remove*/
+     position: relative;
+     .epic-series{
+        position: absolute;
+        background-color:rgb(3, 127, 243);
+        bottom: - 20px;
+        color: white;
+        font-weight: bolder;
+        padding: 10px;
     }
 }
+    .inner-home-page{
+      background-color: rgb(41, 40, 40);
+       padding: 30px;
+       
+            
+        .comics-item {
+          // padding: 10px;
+           display: flex;
+           flex-wrap: wrap;
+           
+           
+             &-content {
+              text-align: left;
+              padding: 10px;
+            
+                span{
+                    color: whitesmoke;
+                }
+            }
+            
+        }
+     .button{
+         display:flex;
+         justify-content: center;
+     }
+    }
+
+

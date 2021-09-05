@@ -1,22 +1,49 @@
+
+
+<!--ESTENDI il nome di questo template preciso-->
 @extends('templates.base')
 
 
+
+<!--solo dove hai yield puoi fare section-->
 @section('title', 'HomePage')
 
-<!--qui inizio a lavorare sul mio main-->
+
+<!--qui inizio a lavorare sul main-->
+
 @section('main')
-    <div class=" home-page">
-        
+<main>
+    <div class="container-fluid home-page-content"> 
+           <div class="container">
+               <div class="epic-series">CURRENT SERIES</div>
+                    
+            </div>
     </div>
+      
+        <div class="container-fluid inner-home-page">
+            
+            <div class="container">
+                    <div class="row">
+                        @foreach($comics as $comic)
+                            <div class="comics-item col-2">
+                                    
+                                <div class="comics-item-content">
+                                    <img src="{{$comic['thumb']}}" alt="single-comic"/>
+                                     <span> {{$comic['series']}} </span>
+                                </div>
+                                    
+                            </div>
+                        @endforeach
+                     
+                </div>
 
-    <!--foreach per ciclare sul db-->
-    <div class="home-page-content-container">
-        @foreach($comics as $comic)
-        <div class="row"> 
-            <img src="{{$comic['thumb']}}" alt="single-comic">
+                    <div class="button">
+                        <button type="button" class="btn btn-primary">LOAD MORE</button>
+                    </div>
+                    
+            </div>
         </div>
-
-         <p> {{$comic['title']}} </p>
-        @endforeach
-    </div>
+          
+   
+ <main>
 @endsection

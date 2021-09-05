@@ -1,27 +1,28 @@
 
-.merchandise-container{
+.merchandise{
     background-color: rgb(3, 127, 243);
     
-    .container{
-        display: flex;
-        justify-content: space-between;
+    .row{
+       
+        justify-content: space-evenly;
+        align-items: center;
         
          div{
              display: flex;
              align-items: center;
-            
+             height: 70px;
              img{
-                 width: 50px;
+                 height: 50px;
                 padding: 10px;
                  margin-top: 13px;
-                 &:nth-last-child(4){
-                     width: 30px;
+                 &:nth-last-of-type(2){
+                     height: 20px;
                  }
              }
             span{
                 color: white;
                 font-size: 12px;
-                padding-left: 10px;
+                padding-left: 5px;
             }
          }
     }
