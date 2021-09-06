@@ -11026,13 +11026,16 @@ header .mid-nav .search input {
 }
 
 .inner-home-page .comics-item {
-  display: flex;
   flex-wrap: wrap;
 }
 
+.inner-home-page .comics-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .inner-home-page .comics-item-content {
-  text-align: left;
-  padding: 10px;
+  padding: 5px;
 }
 
 .inner-home-page .comics-item-content span {
