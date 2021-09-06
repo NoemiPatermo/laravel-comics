@@ -11116,7 +11116,8 @@ header .mid-nav .search input {
 }
 
 .container-details {
-  color: salmon;
+  margin-left: 80px;
+  color: #000;
 }
 
 .footer-content {

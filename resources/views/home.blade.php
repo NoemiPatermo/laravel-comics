@@ -39,10 +39,9 @@
 
                     <div class="button">
                         <button type="button" class="btn btn-primary">LOAD MORE</button>
-                    </div>
-                    
+                    </div>  
             </div>
         </div>
  <main>
-     @include('templates.merchandise')
+     @include('templates.merchandise')<!--includo un singolo componente quando serve, non lo includo nella pagina prodotto-->
 @endsection

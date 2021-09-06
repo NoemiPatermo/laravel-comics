@@ -21,10 +21,24 @@ con una parte interna dinamica-->
 </div>
         <div class="blu"></div>
                 
-            <div class="container-details mt-5">
-                <h1>{{ $comics[$id]['title']}}</h1>
-                <span>US:PRICE{{$comics[$id]['price']}}<span>
-                        <p>{{$comics[$id]['description']}}</p>
+            <div class="container-details mt-5"> 
+                    <div class="row">
+
+                        <div class="col-8">
+                                <h1>{{ $comics[$id]['title']}}</h1>
+                        </div>
+                        <div class="container">
+                          <div class="row">
+                                <div  class="col-9">
+                                <span>U.S.PRICE:{{$comics[$id]['price']}}<span>
+                                </div>
+                          </div>
+                        </div>
+                    </div>
+                  <div class="description">
+                         <p>{{$comics[$id]['description']}}</p>
+                  </div>
+                
             </div>
         
            
