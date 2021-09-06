@@ -11083,13 +11083,10 @@ header .mid-nav .search input {
   position: relative;
 }
 
-.jumbotron-section .container {
+.jumbotron-section .container .field-content {
   position: absolute;
   bottom: -30px;
   left: 210px;
-}
-
-.jumbotron-section .container .field-content img {
   border: 1px solid #fff;
 }
 
@@ -11103,7 +11100,7 @@ header .mid-nav .search input {
 .jumbotron-section .container .field-content .bottom-label {
   background-color: rgba(0, 102, 170, 0.9);
   position: absolute;
-  width: 193px;
+  width: 100%;
   bottom: 0px;
   text-align: center;
   font-weight: 300;
