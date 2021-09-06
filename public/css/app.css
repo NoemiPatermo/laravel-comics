@@ -11025,24 +11025,31 @@ header .mid-nav .search input {
   padding: 30px;
 }
 
-.inner-home-page .comics-item {
-  flex-wrap: wrap;
+.inner-home-page .row {
+  justify-content: center;
+  padding: 30px 0px;
+  gap: 20px;
+  /*è un pò come il margin, va solo a chi è flex*/
 }
 
-.inner-home-page .comics-item a {
+.inner-home-page .row .comics-item {
+  width: calc((100% / 6) - 20px);
+}
+
+.inner-home-page .row .comics-item img {
+  max-width: 100%;
+}
+
+.inner-home-page .row .comics-item a {
   text-decoration: none;
   color: #fff;
 }
 
-.inner-home-page .comics-item-content {
-  padding: 5px;
+.inner-home-page .row .comics-item-content {
+  margin: 10px;
 }
 
-.inner-home-page .comics-item-content span {
-  color: whitesmoke;
-}
-
-.inner-home-page .button {
+.button {
   display: flex;
   justify-content: center;
 }

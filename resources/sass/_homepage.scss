@@ -15,26 +15,35 @@
     .inner-home-page{
       background-color: rgb(41, 40, 40);
        padding: 30px;
-          
-        .comics-item {
-        flex-wrap: wrap;
-            & a{
-                text-decoration: none;
-                color: #fff;
-            }
-             &-content {
-                padding: 5px;
-             
-                span{
-                    color: whitesmoke;
+
+          .row{
+              justify-content: center;
+              padding: 30px 0px;
+              gap: 20px;
+       /*è un pò come il margin, va solo a chi è flex*/       
+              .comics-item{
+                width: calc((100% / 6) - 20px);
+               
+                img {
+                    max-width: 100%; 
                 }
-            }
+                & a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+                &-content{
+                    margin: 10px;
+                }
+              }
+          }
+       
             
         }
      .button{
          display:flex;
          justify-content: center;
      }
-    }
+    
+
 
 
